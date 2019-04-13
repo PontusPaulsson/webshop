@@ -1,6 +1,7 @@
 /* 595959-7f7f7f-bea8aa-828e82-074f57 */
 body{
-    background: linear-gradient(#dbd4cc, #c1c1c1);
+    /*background: linear-gradient(#dbd4cc, #c1c1c1);*/
+    background-color: #c1c1c1;
     height: 100%;
 }
 .main-view {
