@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Buddha Center Webshop</title>
+    <link rel="stylesheet" href="/src/styles/normalize.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/src/styles/index.css">
+    <link rel="stylesheet" media="(max-width: 991px)" href="/src/styles/tablet.css">
+    <link rel="stylesheet" media="(max-width: 576px)" href="/src/styles/mobile.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<nav class="navbar navbar-expand-lg" id="mainNav">
+    <div class="container">
+        <a class="navbar-brand js-scroll-trigger admin-button" href="#">Admin</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive">Menu <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav text-uppercase">
+            </ul>
+            <form class="form-inline">
+                <input  type="text" class="form-control search-text-field" placeholder="Search">
+                <button class="btn btn-outline-success searchBtn" id="searchBtn">Search</button>
+            </form>
+        </div>
+        <div class="cart-wrapper noselect">
+            <div class="cart cart-items-container btn-cart"><img src="/src/img/shopping-cart.png" style="width: 40px; height: 40px;">
+        </div>
+            <span class="cart-items"></span>
+            <span class="total-price"></span>
+        </div>
+    </div>
+</nav>
+<div class="background-image"></div>
+<div class="container clearfix">
+    <nav class="navbar">
+        <span class="amount"></span>
+        <ul class="pagination mt-3">
+        </ul>
+    </nav>
+</div>
+<main class="container background main-view">
+</main>
+<div class="container clearfix">
+    <nav class="navbar navbar-bottom">
+        <span class="amount"></span>
+        <ul class="pagination mt-3 ">
+        </ul>
+    </nav>
+</div>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>

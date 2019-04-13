@@ -1,0 +1,233 @@
+/* 595959-7f7f7f-bea8aa-828e82-074f57 */
+body{
+    background: linear-gradient(#dbd4cc, #c1c1c1);
+    height: 100%;
+}
+.main-view {
+    text-align: center;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+    background-color: #fde2c4;
+    padding: 0px;
+}
+
+.nav-link, .navbar-brand {
+    color: #151212;
+}
+
+.navbar-bottom{
+    border-top: 1px solid #00000057;
+    border-radius: 5px;
+    background-color: #a99e93;
+}
+
+.navbar-brand{
+    width: 20%;
+}
+
+.buy-btn {
+    color: #000000;
+    background-color: #ccad6b;
+    border-color: #dbd4cc;
+    border-radius: 5px;
+    padding: 2px 15px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.cart{
+    background-color: #a99e93;
+}
+
+#navbarResponsive{
+    justify-content: center;
+}
+
+
+.searchBtn, .submit, .admin{
+    border-color: #00000057;
+    margin-left: 5px;
+    color: #151212;
+ }
+
+.searchBtn:hover, .submit:hover, .admin:hover {
+    background-color: #e0cdb58c;
+    border-color:#00000057;
+    color: #f8f9fa;
+}
+
+.navbar{
+    border-bottom: 1px solid #00000057;
+    border-right: 1px solid #00000057;
+    border-left: 1px solid #00000057;
+    border-radius: 5px;
+    background-color: #a99e93;
+}
+
+.container > .navbar{
+    background-color: #a99e93;
+}
+
+.container{
+    background-color: #a99e93;
+    padding: 0px;
+}
+.main-view{
+    background-color: #dbd4cc;
+    height: 90vh;
+}
+.page-link{
+    border: 1px solid #00000057;
+    border-radius: 3px;
+    background-color: #e0cdb58c;
+    color: #595959;
+}
+
+.text{
+    color: #595959;
+}
+
+.product-container {
+    padding-top: 10px;
+    width: 190px;
+    height: 320px;
+    margin: 20px;
+    background-color: #ffffff9e;
+    border-radius: 10px;
+    border: 1px solid #b9b9b9;
+    flex-direction: column;
+    justify-content: space-between;
+    display: flex;
+}
+
+.table > tbody > tr > td {
+    vertical-align: middle;
+    text-align: left;
+    border-style : hidden!important;
+}
+
+.footer-container{
+    padding: 15px;
+    display: flex;
+    margin-top: 4px;
+    justify-content: space-between;
+
+}
+
+th{
+    border: none;
+    text-align: left;
+    border-style: hidden!important;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-container{
+    display: flex;
+}
+.item-title, .item-description {
+    margin: 10px;
+}
+.item-description{
+    font-size: 12px;
+}
+.item-image{
+    width: 150px;
+    height: 150px;
+}
+
+.item-image-big{
+    width: 400px;
+    height: 400px;
+}
+.form-inline{
+    flex-flow: row;
+}
+
+.submit{
+    background-color: #a99e93;
+    margin-bottom: 10px;
+}
+
+.product-form, .subcategory-form, .category-form{
+    padding: 0 100px;
+}
+.fa {
+    padding: 5px;
+}
+.increase-qty, .decrease-qty{
+    padding: 0px
+}
+
+.cart-items-container{
+    font-weight: bold;
+    font-size: 14px;
+}
+
+a:hover{
+    color: #FFFFFF;
+}
+
+.btn-cart{
+    margin-left: 5px;
+    display: none;
+}
+a {
+    text-decoration: none !important;
+}
+
+.noselect {
+    cursor: pointer;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+@media (min-width: 576px){
+    .form-inline .form-control {
+        display: inline-block;
+        width: 100%;
+        vertical-align: middle;
+    }
+}
+
+.cart-wrapper{
+    color: #151212;
+    width: 20%;
+}
+
+#selected-item{
+    color:red;
+}
+
+.background-image{
+    height: 94vh;
+    width: 100%;
+    opacity: 1;
+    transition: opacity 1s linear;
+    -webkit-transition: opacity 1s linear;
+    -moz-transition: opacity 1s linear;
+    -o-transition: opacity 1s linear;
+    -ms-transition: opacity 1s linear;
+    background: url(/src/img/buddha-background.jpg);
+    background-size: cover;
+}
+
+.main-view, .clearfix{
+    opacity: 0;
+    display: block;
+    transition: opacity 2s linear;
+    -webkit-transition: opacity 2s linear;
+    -moz-transition: opacity 2s linear;
+    -o-transition: opacity 2s linear;
+    -ms-transition: opacity 2s linear;
+}
+
+

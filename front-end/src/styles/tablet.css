@@ -1,0 +1,11 @@
+.cart-wrapper{
+    width: 35%;
+    order: 2;
+}
+.navbar-brand{
+    width: 35%;
+    order: 1;
+}
+.navbar-toggler{
+    order: 3;
+}
