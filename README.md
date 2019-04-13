@@ -2,6 +2,8 @@
 
 Webshop I did to learn more about HTML, Webpack, CSS, Bootstrap 4, jQuery, REST and Spring Boot.
 
+The goal was to write it as a single page application.
+
 The webshop supports adding new products under the admin interface. 
 These products will be saved in the embedded H2 database and the images will be saved on the local disk.
 
@@ -37,7 +39,7 @@ See above.
 * [Maven](https://maven.apache.org/) - Dependency Management
 * [Spring](https://spring.io/) - Spring Framework that sits on top of Java EE
 * [Bootstrap 4](https://getbootstrap.com/) - CSS Framework
-* [NodeJS] (https://nodejs.org/en/) - JavaScript runtime environment
+* [NodeJS](https://nodejs.org/en/) - JavaScript runtime environment
 
 ## Authors
 
