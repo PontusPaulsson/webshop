@@ -4,8 +4,10 @@ Webshop I did to learn more about HTML, Webpack, CSS, Bootstrap 4, jQuery, REST 
 
 The goal was to write it as a single page application.
 
-The webshop supports adding new products under the admin interface. 
+The webshop supports adding new products under the admin interface. Each product has a subcategory that is attached to an category.
 These products will be saved in the embedded H2 database and the images will be saved on the local disk.
+
+The project is loaded with some testdata and pictures. You can find this in data.sql.
 
 ## Getting Started
 
